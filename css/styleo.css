@@ -83,7 +83,7 @@ div.col{
      height:500px;
     margin-top: 10px;
     width:100%;
-    background-image: url("/img/logo.jpeg");
+    background-image: url("img/logo.jpeg");
      background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
