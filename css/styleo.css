@@ -1,10 +1,17 @@
-nav li{
+nav ul  li a{
     display:inline;
     text-decoration: none;
+    list-style: none;
 }
 
+nav ul  li {
+  display:inline;
+ 
+}
+
+
 .footer-main-div{
-    background: grey;
+    background:#555;
 }
 
 
@@ -51,8 +58,9 @@ header ul li{
 }
 
 .main1{
-    background: black;
+    background:#999;
     padding-top:30px;
+    height:450px;
     
 }
 
@@ -66,13 +74,14 @@ div.col{
      right:1px;
      left:2px;
      top:2px;
+     width:400px;
      
 }
 
 .hero{
     
      height:500px;
-    margin-top: 0px;
+    margin-top: 10px;
     width:100%;
     background-image: url("/home/cgi/Documents/logo.jpeg");
      background-position: center;
@@ -80,9 +89,18 @@ div.col{
   background-size: cover;
   position: absolute;
   left: 0px;
+  overflow:hidden;
 }
 
 .main3{
-  background: yellow;
-  margin-top:600px;
+  background:#999;
+  margin-top:550px;
+}
+
+section ul li{
+    list-style: none;
+}
+
+div.colf{
+    margin-top:10px;
 }
